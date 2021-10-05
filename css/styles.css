@@ -61,6 +61,7 @@ h2 {
 
 .card__stat-num {
     font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .card__stat-type {
@@ -70,6 +71,19 @@ h2 {
     letter-spacing: 1px;
     opacity: .6;
     font-weight: 400;
+}
+
+@media(min-width: 1440px) {
+
+    body {
+        text-align: left;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 25px;
+    }
 }
 
 /* ==============================
@@ -116,10 +130,6 @@ GENERAL LAYOUT
     margin-bottom: 24px;
 }
 
-.card__stat-num {
-    margin-bottom: 5px;
-}
-
 .attribution {
     font-size: 11px;
     color: steelblue;
@@ -129,11 +139,55 @@ GENERAL LAYOUT
 }
 
 
-
-/* ==============================
-DESKTOP STYLES
-================================= */
-
 @media(min-width: 1440px) {
+    body {
+        height: 100vh;
+        min-height: 800px;
+        position: relative;
+    }
 
+    .container {
+        background-color: var(--main-background);
+        width: 1440px;
+        height: 800px;
+        padding: 177px 165px;
+    }
+
+    .row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .card__img {
+        width: 49%;
+        height: auto;
+        border-radius: 0 10px 10px 0;
+        background-image: url("../images/image-header-desktop.jpg"),
+        linear-gradient(var(--accent), var(--accent));
+        order: initial;
+        background-position: bottom left;
+        margin-bottom: 0;
+    }
+
+    .card__info {
+        width: 46%;
+        padding: 71px 0 39px 72px;
+    }
+
+    .card__text {
+        max-width: 374px;
+        margin-bottom: 72px;
+    }
+
+    .card__stats {
+        display: flex;
+        justify-content: space-between;
+        max-width: 350px;
+    }
+
+    .attribution {
+        position: absolute;
+        bottom: 3px;
+        z-index: -1;
+    }
 }
