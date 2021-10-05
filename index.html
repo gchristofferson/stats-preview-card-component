@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!--Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <!--My Styles -->
+  <link rel="stylesheet" href="./css/styles.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -15,19 +23,36 @@
   </style>
 </head>
 <body>
+  <main class="container">
+    <div class="card row">
+      <div class="card__info">
+        <div class="card__content">
+          <h2 class="card__title">Get insights that help your business grow.</h2>
+          <p class="card__text">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.</p>
+        </div>
+        <div class="card__stats">
+          <div class="card__stat">
+            <p class="card__stat-num">10k+</p>
+            <p class="card__stat-type">companies</p>
+          </div>
+          <div class="card__stat">
+            <p class="card__stat-num">314</p>
+            <p class="card__stat-type">templates</p>
+          </div>
+          <div class="card__stat">
+            <p class="card__stat-num"> 12m+</p>
+            <p class="card__stat-type">queries</p>
+          </div>
+        </div>
+      </div>
+      <div class="card__img"></div>
+    </div>
+  </main>
 
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="attribution" role="contentinfo">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/gchristofferson">Gregg Christofferson</a>.
   </div>
 </body>
 </html>
