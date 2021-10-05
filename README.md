@@ -70,7 +70,7 @@ Here are the styles (for mobile layout):
 
 ### Continued development
 
-I'm sure I could have blended a simple background color with the image using the single background property.  In future projects I will exlplore this further to make sure I'm following best practices when using the background-blend-mode.  I also want to learn more about how to use the related mix-blend-mode to create appealing visual effects.  Mix-blend-modes could have come in handy for a previous project I did where I needed the text color for a button to be the same as the card's background.  I ended up writing 3 different styles for 3 buttons which were each on differently colored backgrounds.  I'm sure I could have used the mix-blend-mode to write one reusable style instead. I'm going to explore this technique more in future projects.
+I'm sure I could have blended a simple background color with the image using the single background property.  In future projects I will explore this further to make sure I'm following best practices when using the background-blend-mode.  I also want to learn more about how to use the related mix-blend-mode to create appealing visual effects.  Mix-blend-modes could have come in handy for a previous project I did where I needed the text color for a button to be the same as the card's background.  I ended up writing 3 different styles for 3 buttons which were each on differently colored backgrounds.  I'm sure I could have used the mix-blend-mode to write one reusable style instead. I'm going to explore this technique more in future projects.
 
 ### Useful resources
 
