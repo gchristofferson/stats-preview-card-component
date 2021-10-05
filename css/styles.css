@@ -36,14 +36,15 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: var(--main-background);
 }
 
-h2,
+h1,
 .card__stat-num {
     font-weight: 700;
 }
 
-h2 {
+h1 {
     font-size: 28px;
     line-height: 32px;
     color: #fff;
@@ -79,7 +80,7 @@ h2 {
         text-align: left;
     }
 
-    h2 {
+    h1 {
         font-size: 36px;
         line-height: 44px;
         margin-bottom: 25px;
@@ -91,7 +92,6 @@ GENERAL LAYOUT
 ================================= */
 
 .container {
-    background-color: var(--main-background);
     width: 375px;
     padding: 88px 24px;
 }
@@ -132,7 +132,6 @@ GENERAL LAYOUT
 
 .attribution {
     font-size: 11px;
-    color: steelblue;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
@@ -147,7 +146,6 @@ GENERAL LAYOUT
     }
 
     .container {
-        background-color: var(--main-background);
         width: 1440px;
         height: 800px;
         padding: 177px 165px;
