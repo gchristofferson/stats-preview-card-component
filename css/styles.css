@@ -116,9 +116,10 @@ GENERAL LAYOUT
     height: 240px;
     border-radius: 10px 10px 0 0;
     background-size: cover;
-    background-image: url("../images/image-header-mobile.jpg"),
-                      linear-gradient(var(--accent), var(--accent));
+    background-image: url("../images/image-header-mobile.jpg");
+    background-color: hsl(273, 97%, 64%);
     background-blend-mode: multiply;
+    mix-blend-mode: exclusion;
     order: -1;
 }
 
@@ -160,8 +161,7 @@ GENERAL LAYOUT
         width: 49%;
         height: auto;
         border-radius: 0 10px 10px 0;
-        background-image: url("../images/image-header-desktop.jpg"),
-        linear-gradient(var(--accent), var(--accent));
+        background-image: url("../images/image-header-desktop.jpg");
         order: initial;
         background-position: bottom left;
         margin-bottom: 0;
